@@ -4,8 +4,7 @@ const app = express()
 const port = 8080
 
 app.get('/', function(req, res) {
-    // res.sendFile(path.join(__dirname + '/index.html'));
-    res.sendFile(path.join('index.html'));
+    res.sendFile(path.join(__dirname + '/index.html'));
 });
 
 app.listen(port, (err) => {
