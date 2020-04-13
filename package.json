@@ -1,28 +1,18 @@
 {
-  "name": "tensorschool",
+  "name": "tensor_school_server",
   "version": "1.0.0",
-  "description": "Tensor School Ufa App",
-  "main": "srv.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "node srv.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ksupipr/tensorschool_srv.git"
-  },
-  "keywords": [
-    "Tensor"
-  ],
-  "author": "Bogatyrev M.A.",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ksupipr/tensorschool_srv/issues"
-  },
-  "homepage": "https://github.com/ksupipr/tensorschool_srv#readme",
-  "engines": {
-    "node": "12.x"
-  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
   }
 }
