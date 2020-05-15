@@ -1,16 +1,73 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "userName": "Oper",
+      "userUrlImage": "img/post/newUser.png"
     }
   ],
-  "comments" : [
+  "wall": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "userName": "Джилл Валентайн",
+      "userUrlImage": "img/post/ava.png",
+      "time": "2020-04-21T15:59:40.007Z",
+      "postText": "Сыграем в RE3 remake? 3 апреля 2020 года Capcom выпустила Resident Evil 3 Remake — обновленную версию популярной игры Resident Evil 3: Nemesis 1999 года.",
+      "postUrlImage": "img/post/postImage.jpg"
+    },
+    {
+      "id": 2,
+      "userName": "Марк Лопии",
+      "userUrlImage": "img/post/ava.png",
+      "time": "2020-04-21T15:59:40.007Z",
+      "postText": "Good job it's work",
+      "postUrlImage": "img/post/postImage.jpg"
+    }
+  ],
+  "likes": [
+    {
+      "modelId": 1,
+      "likeFire": 10,
+      "likeHeartEyes": 5,
+      "likeRocket": 2,
+      "likeLike": 5,
+      "likeBomb": 4,
+      "id": 1
+    },
+    {
+      "modelId": 2,
+      "likeFire": 140,
+      "likeHeartEyes": 24,
+      "likeRocket": 27,
+      "likeLike": 68,
+      "likeBomb": 87,
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userUrlImage": "img/post/newUser.png",
+      "userName": "Леон Скотт Кеннеди",
+      "commentText": "Нашу встречу вырезалии с тобой (",
+      "commentTime": "2020-04-21T15:59:40.007Z",
+      "wallId": 1
+    },
+    {
+      "id": 2,
+      "userUrlImage": "img/post/ava.png",
+      "userName": "Фэйк Джилл",
+      "commentText": "Так может быть ты...",
+      "commentTime": "2020-04-21T15:59:40.007Z",
+      "wallId": 2
+    },
+    {
+      "id": 3,
+      "userUrlImage": "img/post/newUser.png",
+      "userName": "Леон Скотт Кеннеди",
+      "commentText": "Тут что-то еще",
+      "commentTime": "2020-04-21T15:59:40.007Z",
+      "wallId": 1
     }
   ]
 }
