@@ -45,7 +45,7 @@
         },
         {
           "id": 11,
-          "img": "https://images.hdqwalls.com/download/leon-resident-evil-fanart-yb-1600x1200.jpg"
+          "img": "https://lh3.googleusercontent.com/proxy/6Ep_LTHaq1ibcauYHq8vXQqNa4cAwBU_o7rOtgSliGV7nJYIuJ0g52q64bblywxs7_nqp9f6sp2hzxJ-gBM_ikrpGf5155s1QMYs2R6LKqj4-QjThY2A5rQFepz0jpDta-u9J0z0otL0q-aGqTw65l_bjoOMgwQrY1D_AKjNfxJrOhQjhtsTUER7_ML7nNxRdJvJIQ6kIW0o"
         },
         {
           "id": 12,
@@ -68,31 +68,45 @@
           "img": "https://1.bp.blogspot.com/-F8fY6HKKYDI/XImUOEcn_dI/AAAAAAAAD8Y/kHn8OxGP4SELO8NvNGHVindvHBCUTsGKgCKgBGAs/w2048-h2732-c/leon-s-kennedy-resident-evil-2-uhdpaper.com-4K-17.jpg"
         }
       ]
+    },
+    {
+      "id": 254,
+      "gallery": [
+        {
+          "id": 1,
+          "img":"https://cs9.pikabu.ru/post_img/big/2020/01/27/8/1580132041143589967.jpg"
+        }
+      ]
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": 152,
       "userName": "Леон Скотт Кеннеди",
-      "userUrlImage": "img/post/newUser.png"
+    },
+    {
+      "id": 254,
+      "userName": "Джилл Валентайн"
     }
   ],
   "wall": [
     {
       "id": 1,
       "userName": "Джилл Валентайн",
-      "userUrlImage": "img/post/ava.png",
+      "userUrlImage": "https://tensor-school.herokuapp.com/user/photo/254",
       "time": "2020-04-21T15:59:40.007Z",
       "postText": "Сыграем в RE3 remake? 3 апреля 2020 года Capcom выпустила Resident Evil 3 Remake — обновленную версию популярной игры Resident Evil 3: Nemesis 1999 года.",
-      "postUrlImage": "img/post/postImage.jpg"
+      "postUrlImage": "img/post/postImage.jpg",
+      "userId": 152
     },
     {
       "id": 2,
       "userName": "Леон Скотт Кеннеди",
-      "userUrlImage": "img/post/newUser.png",
+      "userUrlImage": "https://tensor-school.herokuapp.com/user/photo/152",
       "time": "2020-04-21T15:59:40.007Z",
       "postText": "Мне здесь хорошо",
-      "postUrlImage": "https://cdn.staticneo.com/ew/thumb/8/8e/Resident_Evil_2_Remake_title_pic.jpg/662px-Resident_Evil_2_Remake_title_pic.jpg"
+      "postUrlImage": "https://cdn.staticneo.com/ew/thumb/8/8e/Resident_Evil_2_Remake_title_pic.jpg/662px-Resident_Evil_2_Remake_title_pic.jpg",
+      "userId": 152
     }
   ],
   "likes": [
@@ -106,11 +120,11 @@
       "id": 1
     },
     {
-      "modelId": 2,
+      "modelId": 1,
       "likeFire": 141,
       "likeHeartEyes": 25,
-      "likeRocket": 28,
-      "likeLike": 68,
+      "likeRocket": 29,
+      "likeLike": 69,
       "likeBomb": 87,
       "id": 2
     }
@@ -118,7 +132,7 @@
   "comments": [
     {
       "id": 1,
-      "userUrlImage": "img/post/newUser.png",
+      "userUrlImage": "https://tensor-school.herokuapp.com/user/photo/152",
       "userName": "Леон Скотт Кеннеди",
       "commentText": "Я чуть опаздываю, моя первая смена",
       "commentTime": "2020-04-21T16:10:40.007Z",
@@ -126,7 +140,7 @@
     },
     {
       "id": 2,
-      "userUrlImage": "img/post/ava.png",
+      "userUrlImage": "https://tensor-school.herokuapp.com/user/photo/254",
       "userName": "Джилл Валентайн",
       "commentText": "С первый рабочим днем, он будет незабываемым)",
       "commentTime": "2020-04-21T16:10:40.007Z",
@@ -134,7 +148,7 @@
     },
     {
       "id": 3,
-      "userUrlImage": "img/post/newUser.png",
+      "userUrlImage": "https://tensor-school.herokuapp.com/user/photo/152",
       "userName": "Леон Скотт Кеннеди",
       "commentText": "Надеюсь не уволят)",
       "commentTime": "2020-04-21T16:12:40.007Z",
@@ -142,7 +156,7 @@
     },
     {
       "id": 4,
-      "userUrlImage": "img/post/ava.png",
+      "userUrlImage": "https://tensor-school.herokuapp.com/user/photo/254",
       "userName": "Джилл Валентайн",
       "commentText": "В такой то день",
       "commentTime": "2020-04-21T16:12:40.007Z",
@@ -150,7 +164,7 @@
     },
     {
       "id": 5,
-      "userUrlImage": "img/post/ava.png",
+      "userUrlImage": "https://tensor-school.herokuapp.com/user/photo/254",
       "userName": "Джилл Валентайн",
       "commentText": "Точно нет",
       "commentTime": "2020-04-21T16:12:40.007Z",
