@@ -74,9 +74,13 @@
       "gallery": [
         {
           "id": 1,
-          "img":"https://cs9.pikabu.ru/post_img/big/2020/01/27/8/1580132041143589967.jpg"
+          "img": "https://cs9.pikabu.ru/post_img/big/2020/01/27/8/1580132041143589967.jpg"
         }
       ]
+    },
+    {
+      "id": 255,
+      "gallery": []
     }
   ],
   "users": [
@@ -87,6 +91,10 @@
     {
       "id": 254,
       "userName": "Джилл Валентайн"
+    },
+    {
+      "id": 255,
+      "userName": "Elza Khisamiova"
     }
   ],
   "wall": [
@@ -97,6 +105,7 @@
       "time": "2020-04-21T15:59:40.007Z",
       "postText": "Сыграем в RE3 remake? 3 апреля 2020 года Capcom выпустила Resident Evil 3 Remake — обновленную версию популярной игры Resident Evil 3: Nemesis 1999 года.",
       "postUrlImage": "img/post/postImage.jpg",
+      "idUser": "254",
       "userId": 152
     },
     {
@@ -106,7 +115,18 @@
       "time": "2020-04-21T15:59:40.007Z",
       "postText": "Мне здесь хорошо",
       "postUrlImage": "https://cdn.staticneo.com/ew/thumb/8/8e/Resident_Evil_2_Remake_title_pic.jpg/662px-Resident_Evil_2_Remake_title_pic.jpg",
+      "idUser": "152",
       "userId": 152
+    },
+    {
+      "userName": "Леон  Скотт Кеннеди",
+      "userUrlImage": "https://tensor-school.herokuapp.com/user/photo/152",
+      "time": "2020-05-23T14:09:52.591Z",
+      "postText": "С годами только красивее",
+      "postUrlImage": "https://i.ytimg.com/vi/CKXomXCm3ko/maxresdefault.jpg",
+      "userId": "254",
+      "idUser": "152",
+      "id": 3
     }
   ],
   "likes": [
@@ -120,13 +140,22 @@
       "id": 1
     },
     {
-      "modelId": 1,
-      "likeFire": 141,
-      "likeHeartEyes": 25,
-      "likeRocket": 29,
+      "modelId": 2,
+      "likeFire": 142,
+      "likeHeartEyes": 26,
+      "likeRocket": 30,
       "likeLike": 69,
       "likeBomb": 87,
       "id": 2
+    },
+    {
+      "modelId": 3,
+      "likeFire": 0,
+      "likeHeartEyes": 0,
+      "likeRocket": 0,
+      "likeLike": 0,
+      "likeBomb": 0,
+      "id": 3
     }
   ],
   "comments": [
@@ -136,6 +165,7 @@
       "userName": "Леон Скотт Кеннеди",
       "commentText": "Я чуть опаздываю, моя первая смена",
       "commentTime": "2020-04-21T16:10:40.007Z",
+      "idUser": 152,
       "wallId": 1
     },
     {
@@ -144,6 +174,7 @@
       "userName": "Джилл Валентайн",
       "commentText": "С первый рабочим днем, он будет незабываемым)",
       "commentTime": "2020-04-21T16:10:40.007Z",
+      "idUser": 254,
       "wallId": 2
     },
     {
@@ -152,6 +183,7 @@
       "userName": "Леон Скотт Кеннеди",
       "commentText": "Надеюсь не уволят)",
       "commentTime": "2020-04-21T16:12:40.007Z",
+      "idUser": 152,
       "wallId": 1
     },
     {
@@ -160,6 +192,7 @@
       "userName": "Джилл Валентайн",
       "commentText": "В такой то день",
       "commentTime": "2020-04-21T16:12:40.007Z",
+      "idUser": 254,
       "wallId": 1
     },
     {
@@ -168,6 +201,7 @@
       "userName": "Джилл Валентайн",
       "commentText": "Точно нет",
       "commentTime": "2020-04-21T16:12:40.007Z",
+      "idUser": 254,
       "wallId": 1
     }
   ]
